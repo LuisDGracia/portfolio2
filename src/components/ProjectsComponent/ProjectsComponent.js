@@ -1,70 +1,21 @@
 import React from 'react'
+import './ProjectsStyle.css'
+import Project from '../ProjectComponent/ProjectComponent'
 
 function Projects() {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <div className="container">
         <h3 className="tittle">Projects</h3>
         <div className="projects-container">
-          <div className="project">
-            <div className="thumb">
-              <img
-                src="/assets/images/placeholder.jpg"
-                width={115}
-                height={115}
-                alt="project 1"
-              />
-            </div>
-            <div className="description">
-              <p className="name">Lorem Ipsum</p>
-              <p className="techs">HTML - CSS - JS</p>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="thumb">
-              <img
-                src="/assets/images/placeholder.jpg"
-                width={115}
-                height={115}
-                alt="project 1"
-              />
-            </div>
-            <div className="description">
-              <p className="name">Lorem Ipsum</p>
-              <p className="techs">HTML - CSS - JS</p>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="thumb">
-              <img
-                src="/assets/images/placeholder.jpg"
-                width={115}
-                height={115}
-                alt="project 1"
-              />
-            </div>
-            <div className="description">
-              <p className="name">Lorem Ipsum</p>
-              <p className="techs">HTML - CSS - JS</p>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="thumb">
-              <img
-                src="/assets/images/placeholder.jpg"
-                width={115}
-                height={115}
-                alt="project 1"
-              />
-            </div>
-            <div className="description">
-              <p className="name">Lorem Ipsum</p>
-              <p className="techs">HTML - CSS - JS</p>
-            </div>
-          </div>
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
+          <Project />
         </div>
       </div>
     </section>

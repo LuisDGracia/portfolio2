@@ -1,0 +1,23 @@
+.socials{
+  background-color: #1e2b38;
+  padding: 60px 0;
+}
+
+.socials .container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials a{
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.twitter:hover{ background-color: #1da1f2; }
+.github:hover{ background-color: #666666; }
+.linkedin:hover{ background-color: #0077B5; }

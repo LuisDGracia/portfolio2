@@ -1,0 +1,23 @@
+.projects{
+  background-color: #f2f2f2;
+  padding: 60px 0;
+}
+
+.projects .container{
+  overflow: hidden;
+}
+
+.projects .tittle{
+  font-size: 2em;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #323068;
+}
+
+.projects-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

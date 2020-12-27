@@ -1,0 +1,29 @@
+.project{
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.project .thumb{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.project .thumb img{
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.project .description{
+  text-align: center;
+}
+
+.project .description .name{
+  font-weight: 700;
+  color: #3895ea;
+  margin-bottom: 10px;
+}
+
+.project .description .techs{
+  font-size: 14px;
+}

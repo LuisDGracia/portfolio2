@@ -1,8 +1,9 @@
 import React from 'react'
+import './AboutStyles.css'
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <div className="photo">
           <img src={"/assets/images/profile-pic.jpg"} alt="Luis De Gracia" height={115} />
