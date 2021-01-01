@@ -5,12 +5,12 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="container">
-        <div className="photo">
+        <div className="about__photo">
           <img src={"/assets/images/profile-pic.jpg"} alt="Luis De Gracia" height={115} />
         </div>
 
-        <div className="text">
-          <h3 className="tittle"> About </h3>
+        <div className="about__text">
+          <h3 className="about__tittle"> About </h3>
           <p>
             {" "}
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias

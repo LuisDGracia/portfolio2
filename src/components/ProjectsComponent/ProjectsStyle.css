@@ -3,11 +3,11 @@
   padding: 60px 0;
 }
 
-.projects .container{
+.projects__container{
   overflow: hidden;
 }
 
-.projects .tittle{
+.projects__tittle{
   font-size: 2em;
   line-height: 34px;
   margin-bottom: 40px;
@@ -16,7 +16,7 @@
   color: #323068;
 }
 
-.projects-container{
+.projects__container{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;

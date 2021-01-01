@@ -1,20 +1,22 @@
 import React from 'react'
 import './HeaderStyles.css'
+import NavItems from '../Navigation/NavItems/NavItems'
+import SideDrawer from '../Navigation/Side_Drawer/Side_Drawer';
+import DrawerToggler from '../Navigation/Side_Drawer/Drawer_Toggler/Drawer_Toggler';
 
-function Header() {
+function Header({ drawerTogglerClicked }) {
   return (
     <header>
-      <div className="filter">
+      <div className="header__filter" >
         <div className="container">
-          <nav className="menu">
-            <a href="#about">Acerca de</a>
-            <a href="#projects">Trabajos</a>
-            <a href="#contact">Contactos</a>
-          </nav>
-          <div className="text-container">
-            <div className="text">
-              <h1 className="name">Luis De Gracia</h1>
-              <h2 className="job">Frontend Developer</h2>
+          <DrawerToggler clicked = { drawerTogglerClicked } />
+          <div className="DesktopOnly" >
+            <NavItems />
+          </div>
+          <div className="header__text-container">
+            <div className="header__text">
+              <h1 className="header__name">Luis De Gracia</h1>
+              <h2 className="header__job">Frontend Developer</h2>
             </div>
           </div>
         </div>

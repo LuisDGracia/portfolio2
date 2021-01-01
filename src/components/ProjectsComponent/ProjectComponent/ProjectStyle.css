@@ -1,0 +1,41 @@
+.project{
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.project__thumb{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.project__tittle,
+.project__techs{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.project__tech_tittle{
+  border-radius: 5px 0 0 0;
+}
+
+.project__techs{
+  bottom: 0; 
+  right: 0;
+  border-radius: 0 0 5px 0;
+}
+
+.project__tech_tittle p,
+.project__techs p{
+  margin: 10px;
+}
+
+.project__img{
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
