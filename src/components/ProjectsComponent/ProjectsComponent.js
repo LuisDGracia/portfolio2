@@ -11,13 +11,9 @@ function Projects() {
       images[paths] = techs(paths)
       return images
     }, {})
-  
-    // console.log( techspaths['tech'] )
 
-  const projectQuantity = []
-
-  for (let i = 0; i < 8; i++) {
-    projectQuantity.push(<Project />)
+  const techsName = ( name ) => {
+    return techspaths[`./${name}.svg`].default
   }
 
   return (
@@ -25,7 +21,14 @@ function Projects() {
       <div className="container">
         <h3 className="projects__tittle">Projects</h3>
         <div className="projects__container">
-          <Project techs={[  techspaths['./html5.svg'].default, techspaths['./css3.svg'].default,techspaths['./javascript.svg'].default]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
         </div>
       </div>
     </section>
