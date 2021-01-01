@@ -1,7 +1,6 @@
 import React from 'react'
 import './HeaderStyles.css'
 import NavItems from '../Navigation/NavItems/NavItems'
-import SideDrawer from '../Navigation/Side_Drawer/Side_Drawer';
 import DrawerToggler from '../Navigation/Side_Drawer/Drawer_Toggler/Drawer_Toggler';
 
 function Header({ drawerTogglerClicked }) {

@@ -9,33 +9,40 @@
   position: relative;
 }
 
-.project__tittle,
-.project__techs{
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 50%;
-  color: white;
-  display: flex;
-  justify-content: center;
+.project__description{
+  text-align: center;
 }
 
-.project__tech_tittle{
-  border-radius: 5px 0 0 0;
-}
-
-.project__techs{
-  bottom: 0; 
-  right: 0;
-  border-radius: 0 0 5px 0;
-}
-
-.project__tech_tittle p,
-.project__techs p{
-  margin: 10px;
+.project__tittle{
+  display: inline-block;
+  width: 90%;
+  font-weight: 700;
+  color: #3895ea;
+  margin-bottom: 10px;
 }
 
 .project__img{
   width: 100%;
   vertical-align: top;
   border-radius: 5px;
+}
+
+.techs{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.techs__container{
+  width: 33%;
+}
+
+.techs__img{
+  width: 40px;
+  height: 40px;
+} 
+
+.techs__name{
+  font-size: 12px;
+  font-weight: 600;
 }
