@@ -1,12 +1,13 @@
 import React from 'react'
 import './AboutStyles.css'
+import profile from '../../assets/images/profile-pic.jpg'
 
 function About() {
   return (
     <section className="about" id="about">
       <div className="container">
         <div className="about__photo">
-          <img src={"/assets/images/profile-pic.jpg"} alt="Luis De Gracia" height={115} />
+          <img src={profile} alt="Luis De Gracia" height={115} />
         </div>
 
         <div className="about__text">
