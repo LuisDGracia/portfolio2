@@ -8,7 +8,7 @@ function NavItem({ href, content, classes, target, rell }) {
 					className={classes} 
 					target={target ? "__blank" : null} 
 					rel={ rell ? "noopener noreferrer" : null } >
-					{content}
+					{ content}
 				</a>
 		</Fragment>
   )

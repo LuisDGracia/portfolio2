@@ -1,20 +1,32 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
+import NavItem from '../../Navigation/NavItems/NavItem/NavItem';
 import './ProjectStyle.css'
 
 
 function Project({ techs }) {
-
+  
   const pattern = /([^/]+)(?=[.][0-9a-f])/g;
 
   return (
     <div className="project">
       <div className="project__thumb">
+        <div className="project__info" >
+          <div className="project__content" >
+            <FontAwesomeIcon icon={[ 'fab', 'github' ]} />
+            <NavItem classes="project__info-text" href="http://www.github.com" content='Github'target rell />
+          </div>
+          <div className="project__content" >
+            <FontAwesomeIcon icon={[ 'fa', 'globe' ]} />
+            <NavItem classes="project__info-text" href="http://www.github.com" content="Site" target rell />
+          </div>
+        </div>
         <img src="/assets/images/placeholder.jpg" alt="project 1" className="project__img" />
       </div>
       <div className="project__description">
         <p className="project__tittle">Lorem Ipsum</p>
 
-        <div className="techs">
+        <div className="techs">          
           { techs.map( tech => {
 
             let techname= tech.match(pattern)
@@ -28,7 +40,6 @@ function Project({ techs }) {
             }) 
           }
         </div>
-
 
       </div>
     </div>

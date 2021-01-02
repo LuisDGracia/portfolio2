@@ -6,10 +6,6 @@
   header .menu{
     text-align: center;
   }
-
-  .main .projects .project{
-    width: 46%;
-  }
 }
 
 @media screen and (max-width: 500px){

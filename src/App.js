@@ -4,6 +4,7 @@ import './App.css';
 import 'normalize.css';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import Header from './components/HeaderComponent/HeaderComponent';
 import About from './components/AboutComponent/AboutComponent';
 import Projects from './components/ProjectsComponent/ProjectsComponent';
@@ -12,7 +13,7 @@ import Social from './components/SocialComponent/SocialComponent';
 import SideDrawer from './components/Navigation/Side_Drawer/Side_Drawer';
 
 function App() {
-  library.add( fab );
+  library.add( fab, faGlobe );
   const [showDrawer, setshowDrawer] = useState(false)
 
   

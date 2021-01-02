@@ -13,7 +13,14 @@ function Projects() {
     }, {})
 
   const techsName = ( name ) => {
-    return techspaths[`./${name}.svg`].default
+
+    const techImg = []
+
+    name.forEach(tech => {
+      techImg.push(techspaths[`./${tech}.svg`].default)
+    });
+
+    return techImg
   }
 
   return (
@@ -21,14 +28,14 @@ function Projects() {
       <div className="container">
         <h3 className="projects__tittle">Projects</h3>
         <div className="projects__container">
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
-          <Project techs={[ techsName('html5'), techsName('css3'), techsName('javascript') ]} />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
+          <Project techs={ techsName(['html5', 'css3', 'javascript']) } />
         </div>
       </div>
     </section>
