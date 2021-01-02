@@ -48,5 +48,13 @@ header{
   .DesktopOnly{
     display: none;
   }
+
+  .header__text{
+    padding: 20px;
+  }
+
+  .header__name{
+    font-size: 40px;
+  }
 }
 

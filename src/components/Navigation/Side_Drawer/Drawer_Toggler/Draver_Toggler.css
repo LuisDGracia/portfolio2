@@ -11,6 +11,7 @@
   border: 1px solid #ffffff;
   border-radius: 5px;
   float: right;
+  background-color: rgba(123, 26, 141, 1) ;
 }
 
 .DrawerToggle div {

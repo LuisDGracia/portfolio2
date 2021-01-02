@@ -1,8 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
-import NavItem from '../../Navigation/NavItems/NavItem/NavItem';
-import project from '../../../assets/images/placeholder.jpg'
 import './ProjectStyle.css'
+import project from '../../../assets/images/placeholder.jpg'
+import ProjectContent from '../ProjectContent/ProjectContent';
 
 
 function Project({ techs }) {
@@ -13,14 +12,8 @@ function Project({ techs }) {
     <div className="project">
       <div className="project__thumb">
         <div className="project__info" >
-          <div className="project__content" >
-            <FontAwesomeIcon icon={[ 'fab', 'github' ]} />
-            <NavItem classes="project__info-text" href="http://www.github.com" content='Github'target rell />
-          </div>
-          <div className="project__content" >
-            <FontAwesomeIcon icon={[ 'fa', 'globe' ]} />
-            <NavItem classes="project__info-text" href="http://www.github.com" content="Site" target rell />
-          </div>
+          <ProjectContent />
+          <ProjectContent />
         </div>
         <img src={ project } alt="project 1" className="project__img" />
       </div>
