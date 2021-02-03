@@ -1,19 +1,33 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './SocialStyles.css'
+import NavItem from '../Navigation/NavItems/NavItem/NavItem'
+
 function Social() {
   return (
     <section className="socials" >
       <div className="container">
-        <a href="https://www.twitter.com" className="twitter" target="_blank" rel="noopener noreferrer" >
-          <FontAwesomeIcon icon={[ 'fab', 'twitter' ]} />
-        </a>
-        <a href="https://www.github.com" className="github" target="_blank" rel="noopener noreferrer" >
-          <FontAwesomeIcon icon={[ 'fab', 'github' ]} />
-        </a>
-        <a href="https://www.linkedin.com" className="linkedin" target="_blank" rel="noopener noreferrer" >
-          <FontAwesomeIcon icon={[ 'fab', 'linkedin' ]} />
-        </a>
+        
+        <NavItem 
+          href="https://www.twitter.com" 
+          classes="socials__link twitter" 
+          content={ <FontAwesomeIcon icon={[ 'fab', 'twitter' ]} /> }
+          target 
+          rell />
+
+        <NavItem 
+          href="https://www.github.com" 
+          classes="socials__link github" 
+          content={ <FontAwesomeIcon icon={[ 'fab', 'github' ]} /> }
+          target 
+          rell />
+          
+        <NavItem 
+          href="https://www.linkedin.com" 
+          classes="socials__link linkedin" 
+          content={ <FontAwesomeIcon icon={[ 'fab', 'linkedin' ]} /> }
+          target 
+          rell />
       </div>
     </section>
   )

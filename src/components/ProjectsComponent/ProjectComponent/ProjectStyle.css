@@ -1,0 +1,56 @@
+.project{
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.project__thumb{
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.project__description{
+  text-align: center;
+}
+
+.project__tittle{
+  display: inline-block;
+  width: 90%;
+  font-weight: 700;
+  color: #3895ea;
+  margin-bottom: 10px;
+}
+
+.project__img{
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.techs{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.techs__container{
+  width: 33%;
+}
+
+.techs__img{
+  width: 40px;
+  height: 40px;
+} 
+
+.techs__name{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px){
+  .project{ width: 46%; }
+}
+
+@media screen and (max-width: 500px){
+  .project{ width: 80%; }
+}

@@ -6,10 +6,6 @@
   header .menu{
     text-align: center;
   }
-
-  .main .projects .project{
-    width: 46%;
-  }
 }
 
 @media screen and (max-width: 500px){
@@ -18,8 +14,21 @@
     padding: 20px 40px;
   }
 
+  header .menu a{
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(123, 26, 141, 0.6);
+  }
+
   header .text-container .text .name{
     font-size: 2em;
+  }
+
+  header .text-container .text{
+    padding: 20px 40px;
   }
 
   header .text-container .text .job{
